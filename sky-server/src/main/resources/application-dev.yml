@@ -6,3 +6,16 @@ sky:
     database: sky_take_out
     username: root
     password: 12345678
+
+  alioss:
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: LTAI5tPeFLzsPPT8gG3LPW64
+    access-key-secret: U6k1brOZ8gaOIXv3nXbulGTUzy6Pd7
+    bucket-name: sky-take-out
+
+  qiniuoss:
+    domain: sa6rwsrut.hd-bkt.clouddn.com
+    accessKey: 1esrSsy5Ybx3AmOCffJTXdT6EXCqQWJaXE4woeip
+    secretKey: 0VFhq4lSPPFDk1mOdI6xivRDzIVGFQ8rei7V2bsY
+    bucket: chaosliang  # 空间名
+    zone: huadong  # 存储区域

@@ -37,3 +37,16 @@ sky:
     admin-ttl: 7200000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+
+  alioss:
+    endpoint: ${sky.alioss.endpoint}
+    access-key-id: ${sky.alioss.access-key-id}
+    access-key-secret: ${sky.alioss.access-key-secret}
+    bucket-name: ${sky.alioss.bucket-name}
+
+  qiniuoss:
+    domain: ${sky.qiniu.domain}
+    accessKey: ${sky.qiniu.accessKey}
+    secretKey: ${sky.qiniu.secretKey}
+    bucket: ${sky.qiniu.bucket}  # 空间名
+    zone: ${sky.qiniu.zone}  # 存储区域
